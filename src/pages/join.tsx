@@ -25,6 +25,16 @@ const join = () => {
                 Sign up here!
               </a>
             </button>
+            {/* Discord Embed */}
+            <div className="mt-5">
+                <iframe 
+                  src="https://ptb.discord.com/widget?id=700058132076036248&theme=dark" 
+                  width="350" 
+                  height="500" 
+                  allowtransparency="true" 
+                  frameborder="0" 
+                  sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+                </iframe>
         </div>
       </div>
       <div className="md:w-1/2 pl-10 pb-5 md:pt-5 pr-10 self-center">
