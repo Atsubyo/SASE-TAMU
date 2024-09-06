@@ -5,8 +5,6 @@ import {Footer} from '../components/Footer';
 
 const join = () => {
   return (
-    <div>
-
   <div className="text-black bg-white">
     <div className="fixed w-full z-40">
     <NavBar/>
