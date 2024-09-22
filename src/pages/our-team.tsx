@@ -58,35 +58,35 @@ const Team : NextPage = () => {
 
       <div className="flex flex-wrap pt-10 flex flex-wrap justify-center gap-20">
       <Card
-      imageSrc="public\headshots\24-25\TMD_Sam.JPG"
+      imageSrc="/headshots/24-25\TMD_Sam.JPG"
       name="Samantha Li"
       major="Biochemistry '27"
       role="Tech Marketing Director"
       link="https://www.linkedin.com/in/samantha-li-069a282b7/"
       />
       <Card
-      imageSrc="public\headshots\24-25\Hist_Luis.JPG"
+      imageSrc="/headshots/24-25\Hist_Luis.JPG"
       name="Luis Albos"
       major="MXET '25"
       role="Historian"
       link="https://www.linkedin.com/in/luis-albos/"
       />
       <Card
-      imageSrc="public\headshots\24-25\SD_Nikki.JPG"
+      imageSrc="/headshots/24-25\SD_Nikki.JPG"
       name="Nikki Arackal"
       major="MMET '25"
       role="Social Director"
       link="null"
       />
       <Card
-      imageSrc="public\headshots\24-25\PR_Kiera.JPG"
+      imageSrc="/headshots/24-25\PR_Kiera.JPG"
       name="Kiera Ocampo"
       major="ENGR '27"
       role="Public Relations Director"
       link="https://www.linkedin.com/in/kiera-joy-ocampo-2aa054300/"
       />
       <Card
-      imageSrc="public\headshots\24-25\FD_Pranav.JPG"
+      imageSrc="/headshots/24-25\FD_Pranav.JPG"
       name="Pranav Moogala"
       major="Mechanical Engineering '26"
       role="Fundraising Director"
@@ -100,14 +100,14 @@ const Team : NextPage = () => {
       link="https://www.linkedin.com/in/mya-tinsay/"
       />
       <Card
-      imageSrc="public\headshots\24-25\LD_Mya.JPG"
+      imageSrc="/headshots/24-25\LD_Mya.JPG"
       name="Mihir Kalvakaalva"
       major="MSEN '26"
       role="Science Chair"
       link="https://www.linkedin.com/in/mihir-kalvakaalva/"
       />
       <Card
-      imageSrc="public\headshots\24-25\SC_Nick.JPG"
+      imageSrc="/headshots/24-25\SC_Nick.JPG"
       name="Nick Truong"
       major="CSEN '26"
       role="Sports Chair"
