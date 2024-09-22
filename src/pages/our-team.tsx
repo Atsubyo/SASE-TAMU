@@ -100,7 +100,7 @@ const Team : NextPage = () => {
       link="https://www.linkedin.com/in/mya-tinsay/"
       />
       <Card
-      imageSrc="/headshots/24-25\LD_Mya.JPG"
+      imageSrc="/headshots/24-25\SC_Mihir.JPG"
       name="Mihir Kalvakaalva"
       major="MSEN '26"
       role="Science Chair"
