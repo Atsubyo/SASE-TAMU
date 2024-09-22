@@ -17,39 +17,39 @@ const Team : NextPage = () => {
       </div>
       <div className="flex flex-wrap pt-10 flex flex-wrap justify-center gap-20">
       <Card
-      imageSrc="/headshots/pres.jpg"
-      name="Victoria Chen"
+      imageSrc="/headshots/24-25/Pres_Noah.JPG"
+      name="Noah Saria"
       major="Computer Engineering '25"
       role="President"
-      link="https://www.linkedin.com/in/victoriaemilychen/"
+      link="https://www.linkedin.com/in/noahdsaria/"
       />
       <Card
-      imageSrc="/headshots/evp.jpg"
-      name="Li Lau"
-      major="Electrical Engineering '25"
+      imageSrc="/headshots/24-25/EVP_Amey.JPG"
+      name="Amey Halappanavar"
+      major="Aerospace Engineering '25"
       role="External Vice President"
-      link="https://www.linkedin.com/in/li-lau/"
+      link="https://www.linkedin.com/in/ameyhalappanavar/"
       />
       <Card
-      imageSrc="/headshots/ivp.jpg"
-      name="Thea Alonzo"
-      major="Microbiology '25"
+      imageSrc="/headshots/24-25/IVP_Charisa.JPG"
+      name="Charisa Chairat"
+      major="Chemical Engineering '25"
       role="Internal Vice President"
-      link="https://www.linkedin.com/in/theaalonzo"
+      link="https://www.linkedin.com/in/charisa-chairat-8070a8268/"
       />
       <Card
-      imageSrc="/headshots/treasurer.jpg"
-      name="Emma Nguyen"
-      major="Applied Math '24"
+      imageSrc="/headshots/24-25/Tres_Art.JPG"
+      name="Art Young"
+      major="Computer Science '25"
       role="Treasurer"
-      link="null"
+      link="https://www.linkedin.com/in/young-art/"
       />
       <Card
-      imageSrc="/headshots/secretary.jpg"
-      name="Roshan Mathur"
-      major="Biomedical Engineering '24"
+      imageSrc="/headshots/24-25/Secr_Jojo.JPG"
+      name="Joseph Nguyen"
+      major="Industrial Engineering '26"
       role="Secretary"
-      link="https://www.linkedin.com/in/roshan-mathur/"
+      link="https://www.linkedin.com/in/jojon/"
       />
       </div>
       <div className="pt-10 font-bebas flex justify-center text-gray-400 text-4xl">
