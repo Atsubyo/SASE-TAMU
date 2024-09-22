@@ -93,7 +93,7 @@ const Team : NextPage = () => {
       link="https://www.linkedin.com/in/pranav-moogala-b826b221b/"
       />
       <Card
-      imageSrc=""
+      imageSrc="/headshots/24-25\LD_Mya.JPG"
       name="Mya Tinsay"
       major="MXET '26"
       role="Logistics Director"
