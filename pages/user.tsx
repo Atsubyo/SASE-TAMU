@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { useSearchParams } from 'next/navigation'
-import Image from 'next/image';
-import Link from 'next/link';
+import { useSearchParams } from '../node_modules/next/navigation'
+import Image from '../node_modules/next/image';
+import Link from '../node_modules/next/link';
 
 const User = () => {
 

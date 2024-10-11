@@ -1,7 +1,7 @@
 import { type NextPage } from "next";
-import {NavBar} from '../components/NavBar';
-import {Footer} from '../components/Footer';
-import Card from '../components/Card';
+import {NavBar} from '../src/components/NavBar';
+import {Footer} from '../src/components/Footer';
+import Card from '../src/components/Card';
 
 const Team : NextPage = () => {
   return (

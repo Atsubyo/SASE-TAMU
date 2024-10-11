@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { NavBar } from '../components/NavBar';
-import { Footer } from '../components/Footer';
+import { NavBar } from '../src/components/NavBar';
+import { Footer } from '../src/components/Footer';
 
 interface AttendanceApiResponse {
   attendedEvents: string[];
