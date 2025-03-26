@@ -1,9 +1,11 @@
 "use client"; // This is a client component
 
 import { type NextPage } from "next";
+import Image from "next/image";
 import Head from "next/head";
 import { NavBar } from "src/components/NavBar";
 import { Footer } from "src/components/Footer";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -32,10 +34,10 @@ const Home: NextPage = () => {
             </div>
             <div className="mt-3 flex flex-row items-center justify-center space-x-5 font-source text-lg">
               <button className="mt-5 rounded border bg-sky-700 bg-opacity-75 px-4 py-2 text-white hover:bg-sky-700 hover:text-white">
-                <a href="/join">Join SASE!</a>
+                <Link href="/join">Join SASE!</Link>
               </button>
               <button className="mt-5 rounded border bg-slate-500 bg-opacity-25 px-4 py-2 text-white hover:bg-slate-500 hover:text-white">
-                <a href="/upcoming-events">Upcoming Events</a>
+                <Link href="/upcoming-events">Upcoming Events</Link>
               </button>
             </div>
           </div>
@@ -55,10 +57,10 @@ const Home: NextPage = () => {
             </div>
             <div className="mt-3 flex flex-row items-center justify-center space-x-5 font-source text-lg">
               <button className="mt-5 rounded border bg-sky-700 bg-opacity-75 px-4 py-2 text-white hover:bg-sky-700 hover:text-white">
-                <a href="/join">Join SASE!</a>
+                <Link href="/join">Join SASE!</Link>
               </button>
               <button className="mt-5 rounded border bg-slate-500 bg-opacity-25 px-4 py-2 text-white hover:bg-slate-500 hover:text-white">
-                <a href="/upcoming-events">Upcoming Events</a>
+                <Link href="/upcoming-events">Upcoming Events</Link>
               </button>
             </div>
           </div>
@@ -82,12 +84,12 @@ const Home: NextPage = () => {
                 live.
               </div>
               <button className="mt-5 rounded border bg-sky-700 bg-opacity-75 px-4 py-2 text-white hover:bg-sky-700 hover:text-white">
-                <a href="/about">Learn more!</a>
+                <Link href="/about">Learn more!</Link>
               </button>
             </div>
           </div>
           <div className="-mt-10 self-center pl-10 pr-10 md:mt-0 md:w-1/2">
-            <img
+            <Image
               className="w-full rounded-xl"
               src="/LONESTAR.jpg"
               width={450}
