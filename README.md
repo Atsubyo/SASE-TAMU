@@ -38,7 +38,7 @@ This website has been made by the efforts of:
 - Luis Albos | Historian 2024-2025 | @Luis-Albos
 - Vijayadatta Seetharam | Design Intern 2024-2025 | @MikamiV
 
-If there are any issues regarding the website, please first reach out to ART YOUNG via email [art.tyoung@gmail.com](mailto:art.tyoung@gmail.com).
+If there are any issues regarding the website, please first reach out to **ART YOUNG** via email [art.tyoung@gmail.com](mailto:art.tyoung@gmail.com).
 
 ## Project Configurations
 
