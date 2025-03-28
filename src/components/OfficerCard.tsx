@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import type { TeamMemberCard } from "~/types/OfficerList";
@@ -24,9 +25,13 @@ const OfficerCard: React.FC<OfficerCardProps> = ({ cardInfo }) => {
           <div className="inline-flex">
             <p className="text-black">{cardInfo.name}</p>
             <div className="mt-1 pl-4">
-              <a href={cardInfo.link} className="hover:text-sky-600">
+              <Link
+                href={cardInfo.link}
+                target="_blank"
+                className="hover:text-sky-600"
+              >
                 <BsLinkedin />
-              </a>
+              </Link>
             </div>
           </div>
           <p className="text-gray-400">{cardInfo.major}</p>

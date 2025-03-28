@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { NavBar } from "~/components/NavBar";
 import { Footer } from "~/components/Footer";
-import { UserNotFoundError, UserNotRegisteredError } from "~/types/errors";
+import { UserNotFoundError } from "~/types/errors";
 import type { AttendanceApiResponse } from "~/types/AttendanceTypes";
 
 const check_uin = (uin: string) => {
@@ -13,13 +13,14 @@ const check_uin = (uin: string) => {
 const Attendance = () => {
   const [mode, setMode] = useState<"view" | "register">("view"); // "view" mode by default
   const [uin, set_uin] = useState("");
-  const [fullName, set_fullName] = useState("");       // For registration
-  const [eventCode, set_eventCode] = useState("");       // For registration
-  const [attendance_data, set_attendance_data] = useState<AttendanceApiResponse | null>(null);
+  const [fullName, set_fullName] = useState(""); // For registration
+  const [eventCode, set_eventCode] = useState(""); // For registration
+  const [attendance_data, set_attendance_data] =
+    useState<AttendanceApiResponse | null>(null);
   const [searching, set_searching] = useState(false);
   const [creating_user, set_creating_user] = useState(false);
   const [user_message, set_user_message] = useState("");
-  const [unf, set_unf] = useState(false);
+  const [, set_unf] = useState(false);
 
   // Existing function for viewing attendance remains unchanged:
   const attendance_fetcher = (): void => {
@@ -33,7 +34,7 @@ const Attendance = () => {
     set_user_message("");
     set_unf(false);
 
-      fetch(`http://3.142.53.37:3000/api/attendance?uin=${uin}`)
+    fetch(`http://3.142.53.37:3000/api/attendance?uin=${uin}`)
       .then(async (response) => {
         if (!response.ok) {
           throw new UserNotFoundError(
@@ -111,13 +112,21 @@ const Attendance = () => {
             <h1 className="font-bebas text-5xl">Attendance Tracker</h1>
             <div className="mb-4 flex space-x-4">
               <button
-                className={`rounded px-4 py-2 ${mode === "view" ? "bg-sky-700 text-white" : "bg-gray-300 text-black"}`}
+                className={`rounded px-4 py-2 ${
+                  mode === "view"
+                    ? "bg-sky-700 text-white"
+                    : "bg-gray-300 text-black"
+                }`}
                 onClick={() => setMode("view")}
               >
                 View Attendance
               </button>
               <button
-                className={`rounded px-4 py-2 ${mode === "register" ? "bg-sky-700 text-white" : "bg-gray-300 text-black"}`}
+                className={`rounded px-4 py-2 ${
+                  mode === "register"
+                    ? "bg-sky-700 text-white"
+                    : "bg-gray-300 text-black"
+                }`}
                 onClick={() => setMode("register")}
               >
                 Register Attendance
@@ -186,12 +195,14 @@ const Attendance = () => {
           {mode === "view" && attendance_data && (
             <div className="mt-5 w-5/6 rounded-xl bg-white p-10 shadow-lg md:w-1/2">
               <h2 className="mb-3 font-bebas text-3xl">
-                {attendance_data.full_name}, your attendance history is as follows:
+                {attendance_data.full_name}, your attendance history is as
+                follows:
               </h2>
               <ul>
                 {attendance_data.AHC.map((record, index) => (
                   <li key={index}>
-                    {record.event_name}: {record.attended ? "Attended" : "Did not attend"}
+                    {record.event_name}:{" "}
+                    {record.attended ? "Attended" : "Did not attend"}
                   </li>
                 ))}
               </ul>
