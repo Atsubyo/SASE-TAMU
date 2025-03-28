@@ -2,6 +2,7 @@ import React from "react";
 import { NavBar } from "src/components/NavBar";
 import { Footer } from "src/components/Footer";
 import EventCard from "~/components/EventCard";
+import Link from "next/link";
 
 const join = () => {
   return (
@@ -19,9 +20,9 @@ const join = () => {
               interest by joining our Discord for further events!
             </div>
             <button className="mt-5 rounded border bg-sky-700 bg-opacity-75 px-4 py-2 text-white hover:bg-sky-700 hover:text-white">
-              <a href="https://linktr.ee/tamusase" target="blank">
+              <Link href="https://linktr.ee/tamusase" target="_blank">
                 Sign up here!
-              </a>
+              </Link>
             </button>
           </div>
         </div>
@@ -53,7 +54,7 @@ const join = () => {
         </div>
       </div>
 
-      <div className="flex hidden h-96 items-center justify-center bg-white bg-meow bg-cover bg-fixed bg-center md:block" />
+      <div className="flex h-96 items-center justify-center bg-white bg-meow bg-cover bg-fixed bg-center md:block" />
       <Footer />
     </div>
   );

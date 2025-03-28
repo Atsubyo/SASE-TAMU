@@ -2,6 +2,8 @@ import React from "react";
 import { NavBar } from "src/components/NavBar";
 import { Footer } from "src/components/Footer";
 import LogoList from "src/components/LogoList";
+import Link from "next/link";
+import Image from "next/image";
 
 //NOTE THAT WHEN ADDING, FILE PATHS ARE CASE-SENSITIVE!
 
@@ -65,7 +67,7 @@ const sponsor = () => {
 
         <div className="flex flex-col bg-white font-source text-black md:flex-row">
           <div className="pb-10 pl-10 pr-10 pt-5 md:w-1/2 md:pb-20 md:pl-20">
-            <a className="font-bebas text-5xl text-black">sponsorship</a>
+            <h1 className="font-bebas text-5xl text-black">sponsorship</h1>
             <div className="pb-5 pt-5">
               <div>
                 SASE is a non-profit 501(c)3 organization, and contributions to
@@ -74,20 +76,24 @@ const sponsor = () => {
               <div>
                 If you are interested in partnering with SASE TAMU, we would
                 love to get into contact with you at{" "}
-                <a href="mailto:sasetamu.evp@gmail.com" className="underline">
+                <Link
+                  href="mailto:sasetamu.evp@gmail.com"
+                  target="_blank"
+                  className="underline"
+                >
                   sasetamu.evp@gmail.com!
-                </a>
+                </Link>
               </div>
               <div>Take a look at our current sponsorship package below.</div>
               <button className="mt-5 rounded border bg-sky-700 bg-opacity-75 px-4 py-2 text-white hover:bg-sky-700 hover:text-white">
-                <a href="/SASE_TAMU_Corporate_Package.pdf">
+                <Link href="/SASE_TAMU_Corporate_Package.pdf" target="_blank">
                   View our Sponsorship Package Here!
-                </a>
+                </Link>
               </button>
             </div>
           </div>
           <div className="self-center pb-5 pl-10 pr-10 md:w-1/2 md:pt-5">
-            <img
+            <Image
               className="rounded-xl"
               src="/INFO.jpg"
               width={1063}

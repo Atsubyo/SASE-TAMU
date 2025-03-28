@@ -12,9 +12,9 @@ const upcoming_events = () => {
 
         <div className="flex h-max justify-center bg-white p-10 md:p-10"></div>
         <div className="bg-white font-source text-black">
-          <a className="pl-5 pr-5 pt-40 font-bebas text-5xl md:pl-20">
+          <h1 className="pl-5 pr-5 pt-40 font-bebas text-5xl md:pl-20">
             Upcoming Events
-          </a>
+          </h1>
           <div className="hidden md:block">
             <div className="flex justify-center p-10 pb-10">
               <div className="googleCalendar">

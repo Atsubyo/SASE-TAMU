@@ -68,7 +68,7 @@ const Home: NextPage = () => {
 
         <div className="flex flex-col bg-white font-source md:flex-row">
           <div className="pb-20 pl-10 pr-10 pt-5 md:w-1/2 md:pl-20">
-            <a className="font-bebas text-5xl">Our Mission</a>
+            <h1 className="font-bebas text-5xl">Our Mission</h1>
             <div className="pt-5 md:pb-5">
               <div>
                 The Society of Asian Scientists and Engineers (SASE) was founded
@@ -101,9 +101,9 @@ const Home: NextPage = () => {
 
         <div className="flex justify-center bg-white pt-10 md:p-10"></div>
 
-        <a className="pb-10 pl-10 pr-5 font-bebas text-5xl md:pl-20">
+        <h1 className="pb-10 pl-10 pr-5 font-bebas text-5xl md:pl-20">
           Upcoming Events
-        </a>
+        </h1>
 
         <div className="hidden md:block">
           <div className="flex justify-center p-10">
@@ -124,10 +124,10 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="flex hidden h-max justify-center bg-white p-10 pt-20 md:block md:p-20"></div>
+        <div className="flex h-max justify-center bg-white p-10 pt-20 md:block md:p-20"></div>
       </div>
-      <div className="flex hidden h-96 items-center justify-center bg-white bg-cuties bg-cover bg-fixed bg-center md:block"></div>
-      <div className="block flex h-96 items-center justify-center bg-white bg-elevator bg-cover bg-fixed bg-center md:hidden"></div>
+      <div className="flex h-96 items-center justify-center bg-white bg-cuties bg-cover bg-fixed bg-center md:block"></div>
+      <div className="flex h-96 items-center justify-center bg-white bg-elevator bg-cover bg-fixed bg-center md:hidden"></div>
       <Footer />
     </>
   );
