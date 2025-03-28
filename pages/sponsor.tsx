@@ -4,81 +4,14 @@ import { Footer } from "src/components/Footer";
 import LogoList from "src/components/LogoList";
 import Link from "next/link";
 import Image from "next/image";
-
-//NOTE THAT WHEN ADDING, FILE PATHS ARE CASE-SENSITIVE!
+import {
+  logosBronze,
+  logosGold,
+  logosPlatinum,
+  logosSilver,
+} from "~/constants/SponsorList";
 
 const sponsor = () => {
-  const logosPlatinum = [
-    {
-      link: "https://chevron.com",
-      alt: "Chevron",
-      path: "/sponsors/chevron.png",
-    },
-    {
-      link: "https://phillips66.com",
-      alt: "Phillips 66",
-      path: "/sponsors/phillips66.webp",
-    },
-    // Add more logo paths as needed
-  ];
-  const logosGold = [
-    {
-      link: "https://williams.com",
-      alt: "Williams",
-      path: "/sponsors/williams.webp",
-    },
-    {
-      link: "https://capitalone.com",
-      alt: "Capital One",
-      path: "/sponsors/capital_one.svg",
-    },
-    {
-      link: "https://www.ineos.com",
-      alt: "INEOS",
-      path: "/sponsors/ineos.webp",
-    },
-    {
-      link: "https://www.boeing.com",
-      alt: "Boeing",
-      path: "/sponsors/boeing.webp",
-    },
-    {
-      link: "https://www.burnsmcd.com",
-      alt: "Burns & McDonnell",
-      path: "/sponsors/burnsandmcdonnell.webp",
-    },
-
-    // Add more logo paths as needed
-  ];
-  const logosSilver = [
-    {
-      link: "https://www.gevernova.com",
-      alt: "GE Vernova",
-      path: "/sponsors/gevernova.svg",
-    },
-    {
-      link: "https://www.cdmsmith.com",
-      alt: "CDM Smith",
-      path: "/sponsors/cdmsmith.webp",
-    },
-
-    // Add more logo paths as needed
-  ];
-  const logosBronze = [
-    {
-      link: "https://lockheedmartin.com",
-      alt: "Lockheed Martin",
-      path: "/sponsors/lockheed.svg",
-    },
-    {
-      link: "https://www.swri.org",
-      alt: "Southwest Research Institute",
-      path: "/sponsors/swri.webp",
-    },
-
-    // Add more logo paths as needed
-  ];
-
   return (
     <div>
       <div className="bg-white">

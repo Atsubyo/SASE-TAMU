@@ -9,7 +9,7 @@ import {
   Advisors,
   EBoardOfficers,
   GeneralOfficers,
-} from "~/types/OfficerList";
+} from "~/constants/OfficerList";
 
 const Team: NextPage = () => {
   return (

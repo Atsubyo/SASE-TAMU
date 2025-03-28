@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import type { TeamMemberCard } from "~/types/OfficerList";
+import type { TeamMemberCard } from "~/constants/OfficerList";
 
 interface OfficerCardProps {
   cardInfo: TeamMemberCard;
