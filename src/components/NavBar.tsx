@@ -121,12 +121,12 @@ export const NavBar = () => {
                   >
                     Sponsor
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/attendance"
                     className="hover-underline-animation rounded-md text-gray-500"
                   >
                     Attendance
-                  </Link>
+                  </Link> */}
                   {/* ... */}
                 </div>
               </div>
@@ -200,12 +200,12 @@ export const NavBar = () => {
                   >
                     Sponsor
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/attendance"
                     className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-700 hover:text-white"
                   >
                     Attendance
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             )}

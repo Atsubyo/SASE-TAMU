@@ -19,11 +19,11 @@ const LogoList: React.FC<LogoList> = ({ images }) => {
       {images.map((image: Image, index: number) => (
         <Link href={image.link} target="_blank" key={index}>
           <Image
-            className="h-36 p-4"
+            className="h-36 w-auto p-4"
             src={image.path}
             alt={image.alt}
-            width={128}
-            height={128}
+            width={144}
+            height={144}
           />
         </Link>
       ))}

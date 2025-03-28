@@ -12,45 +12,68 @@ const sponsor = () => {
     {
       link: "https://chevron.com",
       alt: "Chevron",
-      path: "./sponsors/chevron.png",
+      path: "/sponsors/chevron.png",
     },
-    { link: "https://shell.com", alt: "Shell", path: "./sponsors/shell.png" },
     {
       link: "https://phillips66.com",
       alt: "Phillips 66",
-      path: "./sponsors/phillips.png",
+      path: "/sponsors/phillips.png",
     },
     // Add more logo paths as needed
   ];
   const logosGold = [
     {
-      link: "https://lockheedmartin.com",
-      alt: "Lockheed Martin",
-      path: "./sponsors/lockheed.png",
-    },
-    {
       link: "https://williams.com",
       alt: "Williams",
-      path: "./sponsors/williams.png",
+      path: "/sponsors/williams.webp",
+    },
+    {
+      link: "https://capitalone.com",
+      alt: "Capital One",
+      path: "/sponsors/capital_one.svg",
+    },
+    {
+      link: "https://www.ineos.com",
+      alt: "INEOS",
+      path: "/sponsors/ineos.webp",
+    },
+    {
+      link: "https://www.boeing.com",
+      alt: "Boeing",
+      path: "/sponsors/boeing.webp",
+    },
+    {
+      link: "https://www.burnsmcd.com",
+      alt: "Burns & McDonnell",
+      path: "/sponsors/burnsandmcdonnell.webp",
     },
 
     // Add more logo paths as needed
   ];
   const logosSilver = [
-    { link: "https://dow.com", alt: "Dow", path: "./sponsors/dow.png" },
     {
-      link: "https://southwest.com",
-      alt: "Southwest",
-      path: "./sponsors/southwest.png",
+      link: "https://www.gevernova.com",
+      alt: "GE Vernova",
+      path: "/sponsors/gevernova.svg",
+    },
+    {
+      link: "https://www.cdmsmith.com",
+      alt: "CDM Smith",
+      path: "/sponsors/cdmsmith.webp",
     },
 
     // Add more logo paths as needed
   ];
   const logosBronze = [
     {
-      link: "https://capitalone.com",
-      alt: "Capital One",
-      path: "./sponsors/capital_one.png",
+      link: "https://lockheedmartin.com",
+      alt: "Lockheed Martin",
+      path: "/sponsors/lockheed.svg",
+    },
+    {
+      link: "https://www.swri.org",
+      alt: "Southwest Research Institute",
+      path: "/sponsors/swri.webp",
     },
 
     // Add more logo paths as needed
@@ -120,7 +143,7 @@ const sponsor = () => {
         </div>
 
         <div className="pl-20 pr-20">
-          <div className="pt-5 text-center font-bebas text-5xl text-gray-300">
+          <div className="pt-5 text-center font-bebas text-5xl text-blue-400">
             Platinum
           </div>
           <LogoList images={logosPlatinum} />
