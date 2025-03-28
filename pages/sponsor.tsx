@@ -17,7 +17,7 @@ const sponsor = () => {
     {
       link: "https://phillips66.com",
       alt: "Phillips 66",
-      path: "/sponsors/phillips.png",
+      path: "/sponsors/phillips66.webp",
     },
     // Add more logo paths as needed
   ];
