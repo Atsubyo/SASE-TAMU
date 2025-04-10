@@ -120,12 +120,12 @@ export const NavBar = () => {
                   >
                     Sponsor
                   </Link>
-                  {/* <Link
+                  <Link
                     href="/attendance"
                     className="hover-underline-animation rounded-md text-gray-500"
                   >
                     Attendance
-                  </Link> */}
+                  </Link>
                   {/* ... */}
                 </div>
               </div>
