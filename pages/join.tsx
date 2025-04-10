@@ -11,8 +11,8 @@ const join = () => {
         <NavBar />
       </div>
 
-      <div className="flex flex-col bg-white pb-12 pt-28 font-source md:flex-row">
-        <div className="flex-1 px-8 pb-10 md:w-1/2 md:pb-4">
+      <div className="flex flex-col overflow-x-hidden bg-white pb-12 pt-28 font-source md:flex-row">
+        <div className="w-2/12 px-8 pb-10 md:w-1/2 md:pb-4">
           <h1 className="font-bebas text-5xl">Interested in joining us?</h1>
           <div className="pb-5 pt-5">
             <div>
@@ -29,11 +29,11 @@ const join = () => {
 
         <div
           id="projects"
-          className="flex grow-[2] flex-col bg-white font-source text-lg text-black"
+          className="w-10/12 flex-col bg-white font-source text-lg text-black"
         >
-          <h1 className="px-6 pb-4 font-bebas text-5xl">some past events :)</h1>
-          <div className="w-full flex-1">
-            <div className="flex flex-row gap-5 overflow-x-auto p-6">
+          <h1 className="px-6 pb-4 font-bebas text-5xl">Some Past Events :)</h1>
+          <div className="overflow-x-auto whitespace-nowrap p-6 px-6">
+            <div className="flex min-w-max gap-5 ">
               <EventCard
                 src="/NCNC.jpg"
                 title="SASE @ NC"
