@@ -34,7 +34,7 @@ const Attendance = () => {
     set_user_message("");
     set_unf(false);
 
-    fetch(`http://18.189.239.102/api/attendance?uin=${uin}`)
+    fetch(`http://3.137.163.51/attendance/${uin}`)
       .then(async (response) => {
         if (!response.ok) {
           throw new UserNotFoundError(
